@@ -1,0 +1,144 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    background-color: rgb(170, 225, 247);
+}
+
+header {
+    margin: 15px 0px 30px 50px
+}
+
+a:hover {
+    color: #0d4928;
+        
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #14a82c;
+    cursor: pointer;
+    margin-right: 23px;
+    text-decoration: underline  #0d4928;
+  
+}
+
+.button-header {
+    background: #66a36e;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #022b2c;
+    border: 10px;
+    box-shadow: 0px 2px 2px 3px;
+    color: #000000;
+    
+}
+
+.pet {
+    width: 200px;
+    height: 150px;
+    margin: 25px 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 4px inset #0d4928;
+    
+}
+
+.principal {
+
+    width: 700px;
+    height: 500px;
+    margin: 20px 5px 5px 30px;
+    border-radius: 20px;
+    border: 4px inset #0d4928;
+   
+}
+
+.planeta {
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 122px;
+    color: #0d4928;
+    margin: 20px 150px;
+    font-style: italic;
+    
+}
+iframe {
+   margin: 0 0 15px 20px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 58px;
+    margin: 5px 5px;
+    color: #1a6952;
+    text-decoration: underline #0d4928;
+    
+}
+
+p {
+    font-weight: 600px;
+    width: 500px;
+    line-height: 30px;
+    font-size: 25px;
+    text-align: left; 
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+
+.button-main {
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    margin: 10px 10px 100px 100px;
+    background: #ADFF00;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 5px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+    .link-zap {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+button:hover {
+    opacity: 0.8;
+
+}
+button:active {
+    opacity: 0.5;
+}
